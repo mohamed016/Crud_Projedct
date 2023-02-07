@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+textarea {
+    resize: none !important;
+}
+
+.banner {
+    background-color:rgba(255,255,255,0.2);
+    text-align: center;
+    font-size: 100px;
+    margin-bottom:10px;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+
+body {
+    background-image: url(../images/wp4489084.webp);
+    background-repeat: no-repeat;
+    background-size:cover cover;
+    background-position: 50% 50%;
+    color: #fff !important;
+}
+
+#section1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+}
+
+#section2 {
+    margin-top: 70px;
+    /* padding: 15px; */
+    background-color: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    /* width: 100%; */
+}
+
+label {
+    margin-bottom: 5px;
+}
+table{
+    color: #fff !important;  
+    /* width: 100%;   */
+}
+thead{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+td{
+    width: 10%;
+    margin: 20px;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.6)!important;
+    color: #fff !important;
+    padding: 3px !important;
+    /* width: 80%; */
+    /* text-align: center!important; */
+}

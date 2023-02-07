@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <title>Crud project</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">CRUD SYSTEM</div>
+        <section id="section1">
+            <div class="row">
+                <div class="col-md-12">
+                    <label>Name of product :</label>
+                    <input type="text" class="form-control" id="name" />
+                    <div id="valNameContent"></div>
+                    <label>Category :</label>
+                    <input type="text" class="form-control" id="category" />
+                    <div id="valCategoryContent"></div>
+                    <label>Product description :</label>
+                    <textarea class="form-control" id="productDesc"></textarea>
+                    <div id="valDescriptionContent"></div>
+                    <label>Amount :</label>
+                    <input type="text" class="form-control" id="amount" />
+                    <div id="valAmountContent"></div>
+                    <label>price :</label>
+                    <input type="text" class="form-control" id="price" />
+                    <div id="valPriceContent" class="valContent"></div>
+                    <div class="w-100 d-flex justify-content-center">
+                        <button class="btn  m-3" id="btn">Add product</button>
+                    </div>
+                </div>
+
+        </section>
+
+        <section id="section2">
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="text" class="form-control mb-2" placeholder="search by name..." id="searchBtn" />
+                </div>
+                <div class="col-md-12">
+
+                    <table class="w-100">
+                        <thead>
+                            <tr class="text-center">
+                                <td>Id</td>
+                                <td>Name</td>
+                                <td>Category</td>
+                                <td>Amount</td>
+                                <td>Price</td>
+                                <td>Product description</td>
+                                <td>Update</td>
+                                <td>Delete</td>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+
+                </div>
+
+
+
+
+            </div>
+
+        </section>
+    </div>
+    </div>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>
